@@ -10,14 +10,14 @@ This project is a front-end recreation of Netflix’s modern interface, designed
 	•	💠 Clean & reusable components
 	•	🌈 Advanced CSS techniques (flexbox, grid, gradients, overlays)
 
-  ## 🛠️ Technologies Used
-	•	HTML5
-	•	CSS3
-	•	Flexbox
-	•	Grid
-	•	Gradients
-	•	Animations
-	•	Responsive design
+## 🛠️ Technologies Used
+• HTML5
+• CSS3
+• Flexbox
+• Grid
+• Gradients
+• Animations
+• Responsive design
 
 ## 📸 Preview
 <img src="assets/images/Netflix_Clone.png" alt="Netflix Clone Preview" width="800">
