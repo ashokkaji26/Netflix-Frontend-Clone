@@ -38,11 +38,10 @@ Netflix-Clone/
 
 
 ## 🎯 What I Learned
-	•	Structuring large UI layouts using pure HTML & CSS
-	•	Creating responsive sections using Flexbox & Grid
-	•	Designing smooth gradients and Netflix-style cards
-	•	Managing SVGs, icons, and background images
-	•	Improving code structure for real-world projects
+•	Structuring large UI layouts using pure HTML & CSS
+•	Creating responsive sections using Flexbox & Grid
+•	Designing smooth gradients and Netflix-style cards•	Managing SVGs, icons, and background images
+•	Improving code structure for real-world projects
 
 ## ⭐ Why This Project?
 
