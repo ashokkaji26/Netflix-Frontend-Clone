@@ -49,10 +49,10 @@ I built this project to sharpen my front-end development skills and get hands-on
 My goal is to understand the fundamentals deeply and apply them in real projects.
 
 ## 🚧 Future Improvements
-	•	Adding JavaScript for interactive features
-	•	Creating a login page
-	•	Adding dynamic user profiles
-	•	Creating mobile navigation & animations
+ • Adding JavaScript for interactive features
+ • Creating a login page
+ • Adding dynamic user profiles
+ • Creating mobile navigation & animations
 
 
 ## 💡 How to Run
