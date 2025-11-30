@@ -3,7 +3,7 @@
 A Netflix Clone UI built using pure HTML and CSS.
 This project is a front-end recreation of Netflix’s modern interface, designed to improve my skills in layout design, components styling, and UI replication.
 
-## 🚀 Features
+## 🚀 Features 
 • 📺 Modern Netflix Homepage UI
 • 🎨 Pixel-perfect layout inspired by the real Netflix website
 • 🔥 Custom banners, cards, gradients, and hero section
