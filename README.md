@@ -36,7 +36,6 @@ Netflix-Clone/
 
 </pre>
 
-
 ## 🎯 What I Learned
 • Structuring large UI layouts using pure HTML & CSS
 • Creating responsive sections using Flexbox & Grid
