@@ -11,6 +11,7 @@ This project is a front-end recreation of Netflix’s modern interface, designed
 •🌈 Advanced CSS techniques (flexbox, grid, gradients, overlays)
 
 ## 🛠️ Technologies Used
+
 • HTML5
 • CSS3
 • Flexbox
