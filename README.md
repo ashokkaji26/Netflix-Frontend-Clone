@@ -23,7 +23,7 @@ This project is a front-end recreation of Netflix’s modern interface, designed
 
 ## 📸 Preview
 
-<img src="assets/images/Netflix_Clone.png" alt="Netflix Clone Preview" width="800">
+<img src="assets/images/Netflix_Clone.png" alt="Netflix Clone Preview"width="800">
 
 ## 📂 Project Structure
 
