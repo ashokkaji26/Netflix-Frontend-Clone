@@ -88,7 +88,7 @@ As a frontend developer in learning, I wanted to challenge myself by cloning a w
 
 If you’d like to discuss this project or my work:
 
-- **GitHub:** https://github.com/ashokkaji26  
+- **GitHub:** https://github.com/ashokkaji26/Netflix-Frontend-Clone.git 
 - **Portfolio:** https://ashokkaji-portfolio.netlify.app/
 
 ---
