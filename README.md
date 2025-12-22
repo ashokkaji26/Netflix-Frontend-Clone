@@ -21,7 +21,7 @@ Key areas of focus:
 ## 🚀 Live Demo
 
 🔗 **Live Website:**  
-👉 https://streaming-plateform-frontend-clone.netlify.app/
+👉 https://streaming-platform-frontend-clone.netlify.app/
 
 ---
 
@@ -88,8 +88,8 @@ As a frontend developer in learning, I wanted to challenge myself by cloning a w
 
 If you’d like to discuss this project or my work:
 
-- **GitHub:** https://github.com/ashokkaji26/Netflix-Frontend-Clone.git 
-- **Portfolio:** https://ashokkaji-portfolio.netlify.app/
+- **GitHub:** https://github.com/ashokkaji26
+- **Portfolio:** https://ashokkaji-personal-portfolio.netlify.app/
 
 ---
 
