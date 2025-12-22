@@ -64,8 +64,9 @@ Netflix-Frontend-Clone/
 │
 ├── index.html
 ├── style.css
-└── assets
-|__ README.md
+└── assets/
+├── images/
+└── icons/
 
 ---
 
