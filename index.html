@@ -4,83 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Netflix India - Watch Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Main box -->
-    <div class="main">
+    <!-- ================= HEADER / HERO SECTION ================= -->
+    <header class="main">
 
-        <!-- Nav bar -->
+        <!-- ================= NAVBAR ================= -->
         <nav>
-            <!-- Netflix logo left side -->
+            <!-- Netflix logo -->
             <span>
-                <img class="Netflix_logo" src="assets/images/logo.svg" alt="Netflix_logo">
+                <img class="Netflix_logo" src="assets/images/logo.svg" alt="Netflix logo">
             </span>
 
-            <!-- Nav right side -->
+            <!-- Right navigation -->
             <div class="nav-right">
+
+                <!-- Language selector -->
                 <div class="english_button">
-                    <!-- lang_icon -->
-                    <svg class="lang_svg" viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall"
-                        data-icon-id=":R8pbamkqlalalap6:" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        role="img">
+                    <svg class="lang_svg" viewBox="0 0 16 16" width="16" height="16"
+                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" role="img">
                         <path fill="currentColor" fill-rule="evenodd"
                             d="M10.77 5.33 10.5 6 9.34 8.94l-.57 1.44L7.33 14h1.78l.73-1.97h3.58l.74 1.97H16l-3.43-8.67zm-.15 4.6-.24.63h2.51l-1.26-3.35zm-1.1-5.09.1-.19h-3.2V2h-1.5v2.65H.55V6h3.77A11 11 0 0 1 0 10.43c.33.28.81.8 1.05 1.16 1.5-.91 2.85-2.36 3.88-4.02v5.1h1.49V7.52q.6.95 1.33 1.8l.57-1.43a12 12 0 0 1-1.34-1.9h2.09z"
                             clip-rule="evenodd"></path>
                     </svg>
-                    <!-- drop_down_for_languages -->
-                    <select class="language_dropdown" name="lang" id="select">
+
+                    <select class="language_dropdown" name="lang">
                         <option value="english" selected>English</option>
                         <option value="hindi">हिन्दी</option>
                     </select>
                 </div>
 
-                <!-- sign_In_button -->
-                <button class="sign_In_button"> <a href="#">Sign In</a> </button>
+                <!-- Sign in -->
+                <a href="#" class="sign_In_button">Sign In</a>
+
             </div>
         </nav>
 
-        <!-- dummy transparent box -->
+        <!-- Dark overlay -->
         <div class="transparent_dummy_box"></div>
 
-        <!-- main Texts inside main div -->
-        <div class="hero_text">
-            <!-- 1st div inside hero text  -->
+        <!-- ================= HERO CONTENT ================= -->
+        <section class="hero_text">
+
             <div class="h1_p">
                 <h1>Unlimited movies, shows, and more</h1>
                 <p>Starts at ₹149. Cancel at any time.</p>
             </div>
-            <!-- 2nd dive inside hero text for form -->
+
+            <!-- Email signup -->
             <div class="form">
-                <!-- H3 -->
                 <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-                <!-- Form -->
-                <form class="action" action="#">
-                    <!-- Email Address - input -->
+
+                <form class="action" onsubmit="return false;">
                     <div class="email_div">
-                        <input id="email_address" type="text" placeholder="Email Address">
+                        <input type="email" placeholder="Email address">
                     </div>
-                    <!-- Get Started Button  -->
+
                     <div class="get_started_div">
-                        <button type="submit">Get Started &nbsp; &gt; </button>
+                        <button type="submit">Get Started &nbsp; &gt;</button>
                     </div>
                 </form>
             </div>
 
-        </div>
+        </section>
 
-    </div>
-    <!-- Red curve line after .main div -->
+    </header>
+
+    <!-- Red divider -->
     <div class="red_curve_1"></div>
 
-    <!-- Trending Now Section -->
+    <!-- ================= TRENDING SECTION ================= -->
     <section class="trending_now">
-        <!-- H3 -->
-        <h3 class="h3">Trending Now</h3>
-        <!-- Trending Movies - Div-->
+        <h3>Trending Now</h3>
+
         <div class="trending_movies">
             <div class="movie m1"></div>
             <div class="movie m2"></div>
@@ -95,120 +95,104 @@
         </div>
     </section>
 
-    <!-- Red curve line after .main div -->
     <div class="red_curve_2"></div>
 
-    <!-- More Reasons to join section starts here  -->
+    <!-- ================= REASONS SECTION ================= -->
     <section class="reason_section">
         <h3>More reasons to join</h3>
 
         <div class="reason_div">
-            <!-- reason-1 div -->
-            <div class="reason_item reason_1">
+
+            <div class="reason_item">
                 <h3>Enjoy on your TV</h3>
                 <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
                 <svg class="icon">
                     <use href="assets/icons/logo_1.svg#icon_1"></use>
                 </svg>
             </div>
-            <!-- reason-2 div -->
-            <div class="reason_item reason_1">
+
+            <div class="reason_item">
                 <h3>Download your shows to watch offline</h3>
                 <p>Save your favourites easily and always have something to watch.</p>
                 <svg class="icon">
                     <use href="assets/icons/logo_2.svg#icon_1"></use>
                 </svg>
             </div>
-            <!-- reason-3 div -->
-            <div class="reason_item reason_1">
+
+            <div class="reason_item">
                 <h3>Watch everywhere</h3>
                 <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
                 <svg class="icon">
                     <use href="assets/icons/logo_3.svg#icon_3"></use>
                 </svg>
             </div>
-            <!-- reason-4 div -->
-            <div class="reason_item reason_1">
+
+            <div class="reason_item">
                 <h3>Create profiles for kids</h3>
-                <p>Send kids on adventures with their favourite characters in a space made just for them — free with
-                    your membership.</p>
+                <p>Send kids on adventures with their favourite characters in a space made just for them.</p>
                 <svg class="icon">
                     <use href="assets/icons/logo_4.svg#icon_4"></use>
                 </svg>
             </div>
+
         </div>
     </section>
 
-    <!-- FAQ Section starts here -->
+    <!-- ================= FAQ SECTION ================= -->
     <section class="FAQ">
-        <!-- FAQ h3 -->
         <h3>Frequently Asked Questions</h3>
-        <!-- FAQ div which is a grid  -->
+
         <div class="FAQ_grid">
             <div class="grid_item">
-                <span>
-                    <h3>What is Netflix?</h3>
-                </span>
-                <img src="assets/icons/plus.svg" alt="">
-            </div>
-            <div class="grid_item">
-                <span>
-                    <h3>What is Netflix?</h3>
-                </span>
-                <img src="assets/icons/plus.svg" alt="">
-            </div>
-            <div class="grid_item">
-                <span>
-                    <h3>Where can I watch?</h3>
-                </span>
-                <img src="assets/icons/plus.svg" alt="">
-            </div>
-            <div class="grid_item">
-                <span>
-                    <h3>How do I cancel?</h3>
-                </span>
-                <img src="assets/icons/plus.svg" alt="">
-            </div>
-            <div class="grid_item">
-                <span>
-                    <h3>What can I watch on Netflix?</h3>
-                </span>
-                <img src="assets/icons/plus.svg" alt="">
-            </div>
-            <div class="grid_item">
-                <span>
-                    <h3>Is Netflix good for kids?</h3>
-                </span>
-                <img src="assets/icons/plus.svg" alt="">
+                <h3>What is Netflix?</h3>
+                <img src="assets/icons/plus.svg" alt="Expand answer">
             </div>
 
+            <div class="grid_item">
+                <h3>Where can I watch?</h3>
+                <img src="assets/icons/plus.svg" alt="Expand answer">
+            </div>
+
+            <div class="grid_item">
+                <h3>How do I cancel?</h3>
+                <img src="assets/icons/plus.svg" alt="Expand answer">
+            </div>
+
+            <div class="grid_item">
+                <h3>What can I watch on Netflix?</h3>
+                <img src="assets/icons/plus.svg" alt="Expand answer">
+            </div>
+
+            <div class="grid_item">
+                <h3>Is Netflix good for kids?</h3>
+                <img src="assets/icons/plus.svg" alt="Expand answer">
+            </div>
         </div>
     </section>
 
-    <!-- Footer starts here -->
+    <!-- ================= FOOTER ================= -->
     <footer>
-        <!-- membership form -->
+
         <div class="membership">
             <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-            <form class="action" action="#">
-                <!-- Email Address - input -->
+
+            <form class="action" onsubmit="return false;">
                 <div class="email_div">
-                    <input id="email_address" type="text" placeholder="Email Address">
+                    <input type="email" placeholder="Email address">
                 </div>
-                <!-- Get Started Button  -->
+
                 <div class="get_started_div">
-                    <button type="submit">Get Started &nbsp; &gt; </button>
+                    <button type="submit">Get Started &nbsp; &gt;</button>
                 </div>
             </form>
         </div>
 
-        <!-- Related stuffs-->
         <div class="related">
-            <!-- Call - div -->
+
             <div class="call">
-                <p>Questions? Call <a href="#">000-800-919-1743</a> </p>
+                <p>Questions? Call <a href="#">000-800-919-1743</a></p>
             </div>
-            <!-- related links - div -->
+
             <div class="related_link_grid">
                 <ul>
                     <li><a href="#">FAQ</a></li>
@@ -229,36 +213,30 @@
                 </ul>
             </div>
 
-            <!-- Footer Language -->
-
             <div class="english_button footer_lang">
-                <!-- lang_icon -->
-                <svg class="lang_svg" viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall"
-                    data-icon-id=":R8pbamkqlalalap6:" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" role="img">
+                <svg class="lang_svg" viewBox="0 0 16 16" width="16" height="16"
+                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" role="img">
                     <path fill="currentColor" fill-rule="evenodd"
                         d="M10.77 5.33 10.5 6 9.34 8.94l-.57 1.44L7.33 14h1.78l.73-1.97h3.58l.74 1.97H16l-3.43-8.67zm-.15 4.6-.24.63h2.51l-1.26-3.35zm-1.1-5.09.1-.19h-3.2V2h-1.5v2.65H.55V6h3.77A11 11 0 0 1 0 10.43c.33.28.81.8 1.05 1.16 1.5-.91 2.85-2.36 3.88-4.02v5.1h1.49V7.52q.6.95 1.33 1.8l.57-1.43a12 12 0 0 1-1.34-1.9h2.09z"
                         clip-rule="evenodd"></path>
                 </svg>
-                <!-- drop_down_for_languages -->
-                <select class="language_dropdown" name="lang" id="select">
-                    <option value="english" selected>English</option>
-                    <option value="hindi">हिन्दी</option>
+
+                <select class="language_dropdown">
+                    <option selected>English</option>
+                    <option>हिन्दी</option>
                 </select>
             </div>
 
-            <!-- Netflix india -->
-            <div class="netflix_india">
-                <p>Netflix India</p>
-            </div>
-            <!-- Protected -->
+            <div class="netflix_india">Netflix India</div>
+
             <div class="protected">
-                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <button type="button">Learn more</button></p>
+                This page is protected by Google reCAPTCHA.
+                <button type="button">Learn more</button>
             </div>
+
         </div>
 
-
     </footer>
-
 
 </body>
 
