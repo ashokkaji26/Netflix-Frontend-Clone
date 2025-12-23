@@ -21,7 +21,7 @@ Key areas of focus:
 ## 🚀 Live Demo
 
 🔗 **Live Website:**  
-👉 https://streaming-platform-frontend-clone.netlify.app/
+👉 https://ashokkaji26.github.io/Netflix-Frontend-Clone/
 
 ---
 
